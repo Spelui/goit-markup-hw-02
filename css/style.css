@@ -52,6 +52,10 @@ h6{
   list-style: none;
 }
 
+.active{
+  color: var(--text-accent);
+}
+
 .header-adress{
   color: var(--text-color);
 }
@@ -144,6 +148,10 @@ h6{
   color: var(--white);
 }
 
+.portfolio-active{
+  color: var(--text-accent);
+}
+
 .adress{
   color: var(--white);
   font-style: normal;
@@ -175,6 +183,7 @@ h6{
 
 .btn:hover,
 .btn:focus{
+  color: var(--white);
   background-color: var(--text-accent);
   cursor: pointer;
 }
